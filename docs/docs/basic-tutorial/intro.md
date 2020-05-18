@@ -2,9 +2,9 @@
 title: Intro
 ---
 
-This section assumes you have installed Recoil and React. See the [Getting Started](/docs/introduction/getting-started) page for how to get started with Recoil and React from scratch. Components in the following sections are assumed to have a `<RecoilRoot />` in the parent tree.
+This section assumes you have installed <b>Recoil</b> and React. See the [Getting Started](/docs/introduction/getting-started) page for how to get started with Recoil and React from scratch. Components in the following sections are assumed to have a `<RecoilRoot />` in the parent tree.
 
-In this tutorial, we'll be building a simple todo-list application. Our app will be able to do the following:
+In this tutorial, we'll be building a <b>simple todo-list</b> application. Our app will be able to do the following:
 
 - Add todo items
 - Edit todo items
