@@ -10,7 +10,7 @@ For reasons of compatibility and simplicity, it's best to use React's built-in s
 
 We want to improve this while keeping both the API and the semantics and behavior as Reactish as possible.
 
-Recoil defines a directed graph orthogonal to but also intrinsic and attached to your React tree. State changes flow from the roots of this graph (which we call atoms) through pure functions (which we call selectors) and into components. With this approach:
+Recoil defines a directed graph orthogonal to but also intrinsic and attached to your React tree. State changes flow from the roots (which we call atoms) of this graph  through pure functions ( which we call selectors ) and into components. With this approach:
 
 - We get a boilerplate-free API where shared state has the same simple get/set interface as React local state (yet can be encapsulated with reducers etc. if needed).
 - We have the possibility of compatibility with Concurrent Mode and other new React features as they become available.
